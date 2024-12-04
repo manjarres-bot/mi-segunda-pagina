@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-family: cursive;
+}
+hr{
+    margin: 20px;
+}
+
+.menu-nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    max-width: 60px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.btn-menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+
+.activo{
+    border: 1px;
+    border-radius: 2px;
+    background-color: rgba(127, 146, 255, 0.518);
+    color:green;
+}
+
+.btn-menu:hover{
+       color: blue;
+}
+
+.activo:hover{
+    color: black;
+}
+/*ESTILOS DEL PIE*/
+.pie{
+    background-color: blue;
+    color: white;
+    border:1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*ESTILOS DEL CONTENIDO PAGINA INICIO*/
+.contenido{
+     margin: 20px;
+
+}
+.publicidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.publicidad img{
+    max-height: min-content;
+}
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.Tarjeta{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    gap:  20px;
+}
+.Tarjeta h3{
+    color:#999;
+}
+.Tarjeta a {
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+}
