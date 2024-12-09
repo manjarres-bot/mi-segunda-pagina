@@ -7,6 +7,8 @@
 body{
     margin: 50px;
     font-family: cursive;
+    background-color: blanchedalmond;
+    
 }
 hr{
     margin: 20px;
@@ -63,7 +65,7 @@ hr{
 
 /*ESTILOS DEL CONTENIDO PAGINA INICIO*/
 .contenido{
-     margin: 20px;
+     margin: 40px;
 
 }
 .publicidad{
@@ -73,11 +75,19 @@ hr{
     margin-bottom: 30px;
 }
 .publicidad img{
-    max-height: min-content;
+    display:block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
 }
 .bandeja{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.bandeja_noticias{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     gap: 20px;
 }
 .Tarjeta{
@@ -92,4 +102,71 @@ hr{
     color: blue;
     text-decoration: none;
     margin-top: 10px;
+}
+.fija{
+    width: 100px;
+    
+}
+/*AGREGANDO ESTILOS A BANDEJA VIDEO*/
+.bandeja_video{
+    
+    display: grid;
+    grid-template-columns:  2fr 2fr;
+    gap: 10px;
+    
+}
+.video{
+    width:500px ;
+    height: 300px;
+    padding-block: initial;
+}
+.noti{
+    width: 150px;
+}
+
+
+    
+/*Agregqaaqndo estilo contacto*/
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    min-width: 100px;
+    min-height: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2ps rgb(56, 8, 0);
+
+}
+
+input[type="text"]:hover,
+input [type="email"],
+input[type="number"]:hover {
+    border: 2px rgb(83, 30, 5) solid;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+
+.button {
+    background-color: #044a1e;
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inlineblock;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #968680;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    border: 2px gray solid;
+    box-shadow: 5px 5px 5px #9e8984;
+    color: white;
 }
